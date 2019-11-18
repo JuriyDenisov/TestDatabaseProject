@@ -56,8 +56,17 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ArticleTopicsAndTagsQuery.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Article.sql" />
+    <Build Include="Tables\Tag.sql" />
+    <Build Include="Tables\ArticleTagRelation.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="TestDatabaseProject.refactorlog" />
   </ItemGroup>
 </Project>

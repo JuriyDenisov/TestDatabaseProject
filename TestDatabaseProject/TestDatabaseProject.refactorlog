@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="3e573231-de75-49d1-865e-d5a8596a879e" ChangeDateTime="11/18/2019 20:00:08">
+    <Property Name="ElementName" Value="[dbo].[Article].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Article]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ArticleId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="12a9a966-bca2-4ecd-926b-ed85cdefd5b7" ChangeDateTime="11/18/2019 20:03:32">
+    <Property Name="ElementName" Value="[dbo].[Tag].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TagId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="29b91455-5e3f-4fb9-a295-dd4d87fc28d7" ChangeDateTime="11/18/2019 20:04:54">
+    <Property Name="ElementName" Value="[dbo].[ArticleTagRelation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ArticleTagRelation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ArticleTagRelationId" />
+  </Operation>
+</Operations>
